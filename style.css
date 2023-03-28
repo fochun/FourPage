@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+caption{
+    background-color: white;
+    color: chocolate;
+}
+body{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+table{
+    background-color: gray;
+    color: wheat;
+}
+p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+}

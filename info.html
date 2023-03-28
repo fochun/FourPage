@@ -1,0 +1,104 @@
+<html>
+    <head>
+        <title>FOUR PAGE</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript"> 
+            function show_confirm() 
+            { 
+            var r=confirm("You have submitted the details"); 
+            if (r==true) 
+            { 
+            alert("Submitted successfully!"); 
+            } 
+            else 
+            { 
+            alert("Not submitted!"); 
+            } 
+            } 
+            </script>
+    </head>
+    <body>
+        <table border="1" style="margin-left: auto; margin-right: auto;">
+            <caption><b>BOOKSHOP RECORD</b></caption>
+            <tr style="text-align: center; background-color: cornsilk;">
+                    <td>
+                        <img src="logo.jpg" alt="library logo" height="auto" width="auto">
+                    </td>
+                    <td>
+                        <a href="home.html">Home</a>
+                    </td>
+                    <td>
+                        <a href="about.html">About</a>
+                    </td>
+                    <td>
+                        <a href="info.html">Info</a>
+                    </td>
+                    <td>
+                        <a href="contactus.html">ContactUs</a>
+                    </td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <h1>Customer Purchase Form</h1>
+                    <b>Required to fill in after purchase</b>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <form>
+                        <fieldset>
+                            First Name:
+                            <input type="text" name="name">
+                            Last Name:
+                            <input type="text" name="name"><br><br>
+                            Address:
+                            <input type="text" name="address"><br><br>
+                            City:
+                            <input type="text" name="city">
+                            Town:
+                            <input type="text" name="town"><br><br>
+                            Date of Birth:
+                            <input type="date" name="date"><br><br>
+                            Phone Number:
+                            <input type="text" name="telephone"><br>
+                        </fieldset>
+                    </form>
+                    <center>
+                        <input type="submit" onclick="show_confirm()" value="SUBMIT">
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <h2>Book Purchased</h2>
+                    <form>
+                        <fieldset>
+                            Category:
+                            <input type="text" name="category"><br><br>
+                            Title:
+                            <input type="text" name="title"><br><br>
+                            Author:
+                            <input type="text" name="name"><br><br>
+                            Year Published:
+                            <input type="date" name="date"><br><br>
+                            Price:
+                            <input type="text" name="price"><br><br>
+                            Date Sold:
+                            <input type="date" name="date"><br>
+                        </fieldset>
+                    </form>
+                    <center>
+                        <input type="submit" onclick="show_confirm()" value="SUBMIT">
+                    </center>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="5">
+                    <center>
+                        COPYRIGHT @FORTUNE @BBIT/MG/2024/09/19
+                    </center>
+                </td>
+            </tr>
+        </table> 
+    </body>       
+</html>
